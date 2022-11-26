@@ -1,4 +1,22 @@
+:root {
+}
+
 body {
   height: 100vh;
-  background-color: red;
+  margin: 0;
+  padding: 0;
+}
+
+#App {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 100px auto 50px;
+}
+
+header {
+  background-color: gray;
+}
+
+footer {
+  background-color: gray;
 }
